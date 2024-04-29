@@ -1,0 +1,28 @@
+{
+  "name": "swagger-to-schema",
+  "version": "1.0.0",
+  "description": "compile Swagger API data to zod schema and TypeScript typing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yousunzoo-lab/swagger-to-schema.git"
+  },
+  "author": "yousunzoo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yousunzoo-lab/swagger-to-schema/issues"
+  },
+  "homepage": "https://github.com/yousunzoo-lab/swagger-to-schema#readme",
+  "dependencies": {
+    "@babel/core": "^7.24.4",
+    "@babel/preset-env": "^7.24.4",
+    "babel-plugin-add-module-exports": "^1.0.4",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.4.5",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
